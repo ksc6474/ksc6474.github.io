@@ -1,3 +1,8 @@
 # ksc6474.github.io
 
-dndndndndndn
+kimseungchan
+===========
+kimminchan
+----------
+# this is me
+###### this is me
