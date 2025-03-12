@@ -1,8 +1,3 @@
 # ksc6474.github.io
 
-kimseungchan
-===========
-kimminchan
-----------
-# this is me
-###### this is me
+.[**homework2-1**]_(https://ksc6474.github.io/homework2-1.html).
