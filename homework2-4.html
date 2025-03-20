@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float: left; 
+  margin-left: 20px; 
+  max-width: 300px; 
+  height: auto; 
+}
+</style>
+</head>
+<body>
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h1 style="color: #c00; font-size: 50px; font-weight: bold; margin-top: 5px; margin-bottom: 10px;">“올드 트래포드의 역사는 지킨다”</h1>
+    <p style="color: #c00; font-size: 16px; font-weight: bold; line-height: 1.2; text-align: right;">맨체스터<br />유나이티드</p>
+  </div>
+
+  <div style="display: flex;">
+    <div style="width: 50%; padding-right: 20px;">
+      <h2 style="font-size: 28px;">뉴 올드 트래포드?</h2>
+      
+      <!-- 이미지 추가 및 크기 조정 -->
+      <img src="새경기장.jpg" alt="뉴 올드 트래포드" />
+      
+      <p style="font-size: 16px; line-height: 1.6;">
+        맨체스터 유나이티드의 새 경기장을 설계 중인 건축가들이 올드 트래포드의 풍부한 역사와 전통을 반드시 보존하겠다고 약속했다.
+        맨유는 지난주, 기존 올드 트래포드를 리노베이션하는 대신 10만 석 규모의 신축 경기장을 건설하기로 공식 발표했다.</p>
+    </div>
+
+    <div style="width: 50%;">
+      <h2 style="font-size: 24px; margin-bottom: 5px;">못하는 선수들</h2>
+      <div style="border-top: 1px solid black; margin-top: 0;">
+        <p style="padding: 8px 0; font-style: italic; border-bottom: 1px solid black; margin: 0;">빅토르 린될로프</p>
+        <p style="padding: 8px 0; font-style: italic; border-bottom: 1px solid black; margin: 0;">마테우스 더리흐트</p>
+        <p style="padding: 8px 0; font-style: italic; border-bottom: 1px solid black; margin: 0;">알렉한드로 가르나초</p>
+        <p style="padding: 8px 0; font-style: italic; margin: 0;">라스무스 호일룬</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
