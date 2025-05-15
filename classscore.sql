@@ -1,13 +1,13 @@
-create database classscore;
-use classscore;
-create table scores (
-	number	char(32)	 not null primary key,
-	name		char(32)  	character set utf8,
-	math		int(3),
-	science 	int(3),
-	korea		int(3),
-	english		int(3),
-	mean		int(3),
-	sum		int(3)
-);
-describe scores;
+CREATE DATABASE IF NOT EXISTS classscore CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE classscore;
+
+CREATE TABLE IF NOT EXISTS tickets (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    ticket_type VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    remarks VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    child_counts VARCHAR(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    adult_counts VARCHAR(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+    total_price INT,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
